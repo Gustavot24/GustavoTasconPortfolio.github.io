@@ -1,0 +1,38 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: slide;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .9}
+  to {opacity: 1}
+}
+
+/* Hide the images by default */
+.mySlides2 {
+    display: none;
+  }
